@@ -11,13 +11,11 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
         }
-
         /* Navigation */
         nav {
             background: #1a1a1a;
@@ -28,7 +26,6 @@
             z-index: 100;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-
         nav .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -37,29 +34,24 @@
             align-items: center;
             padding: 0 2rem;
         }
-
         nav .logo {
             font-size: 1.8rem;
             font-weight: bold;
             color: #d4af37;
         }
-
         nav ul {
             display: flex;
             list-style: none;
             gap: 2rem;
         }
-
         nav a {
             color: white;
             text-decoration: none;
             transition: color 0.3s;
         }
-
         nav a:hover {
             color: #d4af37;
         }
-
         /* Hero Section */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
@@ -73,19 +65,16 @@
             justify-content: center;
             align-items: center;
         }
-
         .hero h1 {
             font-size: 4rem;
             margin-bottom: 1rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
-
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 2rem;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
-
         .btn {
             display: inline-block;
             padding: 1rem 2.5rem;
@@ -100,43 +89,36 @@
             transition: all 0.3s;
             margin: 0 0.5rem;
         }
-
         .btn:hover {
             background: #f4d03f;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
         }
-
         .btn-secondary {
             background: transparent;
             border: 2px solid #d4af37;
         }
-
         .btn-secondary:hover {
             background: #d4af37;
             color: #1a1a1a;
         }
-
         /* Container */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
         /* About Section */
         .about {
             padding: 5rem 2rem;
             background: #f9f9f9;
         }
-
-        .about h2 {
+        about h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
             color: #1a1a1a;
             text-align: center;
         }
-
         .about p {
             font-size: 1.1rem;
             line-height: 1.8;
@@ -144,26 +126,22 @@
             text-align: center;
             color: #555;
         }
-
         /* Menu Section */
         .menu {
             padding: 5rem 2rem;
             background: white;
         }
-
         .menu h2 {
             font-size: 2.5rem;
             margin-bottom: 3rem;
             color: #1a1a1a;
             text-align: center;
         }
-
         .menu-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
-
         .menu-item {
             background: #f9f9f9;
             padding: 2rem;
@@ -171,58 +149,48 @@
             transition: transform 0.3s, box-shadow 0.3s;
             border-left: 4px solid #d4af37;
         }
-
         .menu-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
-
         .menu-item h3 {
             color: #d4af37;
             margin-bottom: 0.5rem;
             font-size: 1.3rem;
         }
-
         .menu-item .price {
             color: #1a1a1a;
             font-weight: bold;
             margin-bottom: 0.5rem;
         }
-
         .menu-item p {
             color: #666;
             font-size: 0.95rem;
         }
-
         /* Reservation Section */
         .reservation {
             padding: 5rem 2rem;
             background: #1a1a1a;
             color: white;
         }
-
         .reservation h2 {
             font-size: 2.5rem;
             margin-bottom: 2rem;
             text-align: center;
             color: #d4af37;
         }
-
         .form-wrapper {
             max-width: 500px;
             margin: 0 auto;
         }
-
         .form-group {
             margin-bottom: 1.5rem;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 0.5rem;
             font-weight: 500;
         }
-
         .form-group input,
         .form-group select {
             width: 100%;
@@ -231,36 +199,30 @@
             border-radius: 5px;
             font-size: 1rem;
         }
-
         /* Contact Section */
         .contact {
             padding: 5rem 2rem;
             background: #f9f9f9;
         }
-
         .contact h2 {
             font-size: 2.5rem;
             margin-bottom: 3rem;
             text-align: center;
             color: #1a1a1a;
         }
-
         .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             text-align: center;
         }
-
         .contact-item h3 {
             color: #d4af37;
             margin-bottom: 0.5rem;
         }
-
         .contact-item p {
             color: #666;
         }
-
         /* Footer */
         footer {
             background: #1a1a1a;
@@ -268,26 +230,21 @@
             text-align: center;
             padding: 2rem;
         }
-
         footer p {
             margin-bottom: 0.5rem;
         }
-
         /* Responsive */
         @media (max-width: 768px) {
             nav ul {
                 flex-direction: column;
                 gap: 1rem;
             }
-
             .hero h1 {
                 font-size: 2.5rem;
             }
-
             .hero p {
                 font-size: 1.2rem;
             }
-
             .menu-grid {
                 grid-template-columns: 1fr;
             }
@@ -308,7 +265,6 @@
             </ul>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section class="hero" id="home">
         <h1>Welcome to Our Restaurant</h1>
@@ -316,7 +272,6 @@
         <button class="btn" onclick="document.getElementById('reservation').scrollIntoView({behavior: 'smooth'})">Reserve Now</button>
         <a href="#menu" class="btn btn-secondary" style="margin-top: 1rem;">View Menu</a>
     </section>
-
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
@@ -332,7 +287,6 @@
             </p>
         </div>
     </section>
-
     <!-- Menu Section -->
     <section class="menu" id="menu">
         <div class="container">
@@ -387,7 +341,6 @@
             </div>
         </div>
     </section>
-
     <!-- Reservation Section -->
     <section class="reservation" id="reservation">
         <div class="container">
@@ -431,7 +384,6 @@
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
@@ -452,13 +404,11 @@
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Restaurant Name. All rights reserved.</p>
         <p>Follow us on social media for updates and special offers</p>
     </footer>
-
     <script>
         function handleReservation(event) {
             event.preventDefault();
@@ -467,13 +417,10 @@
             const date = document.getElementById('date').value;
             const time = document.getElementById('time').value;
             const guests = document.getElementById('guests').value;
-            
-            alert(`Reservation confirmed!\n\nName: ${name}\nDate: ${date}\nTime: ${time}\nGuests: ${guests}\n\nA confirmation will be sent to ${email}`);
-            
+            alert(`Reservation confirmed!\n\nName: ${name}\nDate: ${date}\nTime: ${time}\nGuests: ${guests}\n\nA confirmation will be sent to ${email}`); 
             // Reset form
             event.target.reset();
         }
-
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
